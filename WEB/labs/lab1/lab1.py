@@ -17,14 +17,16 @@ print('Результат: ', f)
 
 print(colored('Завдання 3', 'blue')) # task3
 list = [2, 4, -3, 0, 9, 54, -2, -6]
-print('Результат: ', max(list))
+print('Максимальне число зі списку: ', max(list))
 k = 0
 for i in range(len(list)):
     if(list[i]%2==0 and list[i]>0):
         k+=list[i]
-print('Результат: ', k)
+print('Сума парних додатніх елементів масиву: ', k)
 
 list.reverse()
+list1 = []
 for m in range(len(list)):
     if(list[m]<0):
-        print(list[m])
+        list1 += [list[m]]
+print("Від'ємні елементи зі списку у зворотньому порядку: ", list1)
