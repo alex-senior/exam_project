@@ -1,7 +1,7 @@
 import os
 
-file1 = "groups/11-CE.txt"
-file2 = "groups/21-CE.txt"
+file1 = "11-CE.txt"
+file2 = "21-CE.txt"
 print(os.getcwd())
 
 #читання файлів

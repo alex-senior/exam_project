@@ -1,7 +1,9 @@
-import sys
+import runpy
+
+from function import open_file
 
 while True:
-        user_action = input()
+        user_action = input('list, run or exit: ')
         user_action = user_action.strip()
 
         if user_action.startswith('list'):
@@ -15,8 +17,26 @@ while True:
                         row = f"{index+1}. {item}"
                         print(row)
 
-        #elif user_action.startswith('run'):
+        elif user_action == 'run 1': 
+                runpy.run_path(path_name='CLI\labs\lab1\lab1.py')
 
+        elif user_action == 'run 2': 
+                runpy.run_path(path_name='CLI\labs\lab2\lab2.py')
+
+        elif user_action == 'run 3': 
+                runpy.run_path(path_name='CLI\labs\lab3\lab3.py')
+
+        elif user_action == 'run 4': 
+                runpy.run_path(path_name='CLI\labs\lab4\lab4.py')
+
+        elif user_action == 'run 5': 
+                runpy.run_path(path_name='CLI\labs\lab5\lab5.py')
+
+        elif user_action == 'run 6': 
+                runpy.run_path(path_name='CLI\labs\lab6\lab6.py')
+
+        elif user_action == 'run 7': 
+                runpy.run_path(path_name='CLI\labs\lab7\lab7.py')
 
         elif user_action.startswith('exit'):
                 break
