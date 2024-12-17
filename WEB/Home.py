@@ -8,12 +8,10 @@ st.set_page_config(
 st.title("Мій веб-додаток")
 st.subheader("Список моїх лабораторних робіт:")
 
-#st.button("Відеозапис")
-
 @st.dialog("Опис")
 def descr(filepath):
     st.write(open(filepath, 'r', encoding='utf-8').read())
-    st.link_button('View', 'WEB/labs/lab1/lab1.py')
+    st.link_button('View', 'WEB/videos')
 
 lb1 = st.button('Лабораторна робота №1')
 if lb1:
