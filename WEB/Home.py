@@ -11,7 +11,7 @@ st.subheader("Список моїх лабораторних робіт:")
 @st.dialog("Опис")
 def descr(filepath):
     st.write(open(filepath, 'r', encoding='utf-8').read())
-    st.link_button('View', 'WEB/videos')
+    st.link_button('Переглянути', 'https://drive.google.com/drive/folders/14154SMhpzl94Pt5xzSB-3E7NlBn7izf3?usp=sharing')
 
 lb1 = st.button('Лабораторна робота №1')
 if lb1:

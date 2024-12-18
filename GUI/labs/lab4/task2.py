@@ -1,6 +1,6 @@
 import string
 
-filepath="D:\IT\College\Session\CLI\labs\lab4\city.txt"
+filepath="CLI/labs/lab4/city.txt"
 #part 1
 with open(filepath, "r", encoding='utf-8') as file:
     read = file.read()

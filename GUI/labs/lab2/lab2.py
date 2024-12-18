@@ -1,4 +1,4 @@
-from function import *
+from labs.lab2.function import *
 
 list = [0, 2, 4, 2, 5, 9, 8, 3, 1, 7, 10]
 menu = [quick_sort.__doc__, min_5.__doc__, max_5.__doc__, average.__doc__]

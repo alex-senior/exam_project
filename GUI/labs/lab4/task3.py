@@ -1,6 +1,6 @@
 import re
 
-filepath="D:\IT\College\Session\CLI\labs\lab4\city.txt"
+filepath="CLI/labs/lab4/city.txt"
 with open(filepath, "r", encoding='utf-8') as file:
     read = file.read()
     words = read.split()

@@ -1,4 +1,5 @@
-from files import task_1 
-from files import task_2
-from files import task_3
+import runpy
+runpy.run_path(path_name='CLI/labs/lab7/files/task_1.py')
+runpy.run_path(path_name='CLI/labs/lab7/files/task_2.py')
+runpy.run_path(path_name='CLI/labs/lab7/files/task_3.py')
 print('Лабораторна робота виконана успішно!')
