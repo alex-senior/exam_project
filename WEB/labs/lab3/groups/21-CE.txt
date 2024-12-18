@@ -1,0 +1,3 @@
+Sasha 10
+Valik 9
+Boris 8
